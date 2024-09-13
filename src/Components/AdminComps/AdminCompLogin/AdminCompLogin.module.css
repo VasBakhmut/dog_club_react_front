@@ -1,0 +1,42 @@
+.container {
+	padding-top: 150px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.input_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 48px;
+}
+
+.label {
+	margin-right: 18px;
+	color: rgb(123, 123, 123);
+}
+
+.input {
+	margin-right: 24px;
+	border: 1px solid #ff9f0e;
+	border-radius: 14px;
+	padding: 16px;
+	font-size: 16px;
+}
+.input:focus {
+	border: 1px solid #ff9f0e;
+	outline: none;
+}
+
+.btn_login {
+	margin-top: 48px;
+	width: 40%;
+	padding: 12px;
+	background-color: #ff9f0e;
+	border: 1px solid #ff9f0e;
+	border-radius: 12px;
+	color: #ffffff;
+	font-size: medium;
+}

@@ -1,0 +1,39 @@
+.form_container {
+	margin: 50px;
+}
+
+.input_container {
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+}
+
+.label {
+	color: rgb(170, 172, 179);
+	margin-right: 6px;
+}
+
+.input {
+	margin-right: 12px;
+	border: 1px solid #ff9f0e;
+	border-radius: 8px;
+	padding: 6px;
+}
+
+.input_name {
+	border: 1px solid #ff9f0e;
+	border-radius: 8px;
+	width: 100%;
+	max-width: 500px;
+	height: 60px;
+	padding: 8px;
+}
+
+.btn {
+	border: 1px solid #ff9f0e;
+	border-radius: 8px;
+	background-color: #ff9f0e;
+	color: white;
+	padding: 8px;
+	width: 80%;
+}

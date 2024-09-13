@@ -1,0 +1,108 @@
+.productContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+}
+
+.topContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 72px;
+	align-items: center;
+
+	@media screen and (max-width: 970px) {
+		justify-content: space-around;
+	}
+
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+
+		align-items: flex-start;
+	}
+}
+
+.wrapper {
+	padding-top: 185px;
+	margin-bottom: 150px;
+
+	@media screen and (max-width: 480px) {
+		padding-top: 80px;
+	}
+}
+
+.sortingContainer {
+	display: flex;
+	align-items: center;
+
+	@media screen and (max-width: 970px) {
+		display: none;
+	}
+}
+
+.mainText {
+	font-family: Rowdies;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 1.2;
+	color: #ff9f0e;
+}
+
+.sortText {
+	color: #ff9f0e;
+	font-size: 18px;
+	margin-right: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.sortBtn {
+	background-color: white;
+	border: 1px solid #839aa9;
+	color: #181817;
+	line-height: 1.2;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.sortBtn_Active {
+	background-color: #ff9f0e;
+	border: 1px solid #839aa9;
+	border-radius: 2px;
+	color: white;
+	line-height: 1.2;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.sortingMobBtn {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	width: 100%;
+	max-width: 95px;
+	height: 24px;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+
+	@media screen and (min-width: 970px) {
+		display: none;
+	}
+}
+
+.sortingMobIcon {
+	fill: #ff9f0e;
+	width: 24px;
+	height: 24px;
+}
+
+.txt {
+	font-size: 14px;
+}

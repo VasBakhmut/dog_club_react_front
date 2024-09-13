@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.custom_modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom_modal .ant-modal-content {
+	height: 880px;
+	width: 100%;
+	max-width: 880px;
+	background-color: #fffaf3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./assets/image/modalBkg/backgroundModal1.png'),
+		url('./assets/image/modalBkg/backgroundModal2.png'),
+		url('./assets/image/modalBkg/backgroundModal3.png'),
+		url('./assets/image/modalBkg/backgroundModal4.png');
+	background-size: 97px 97px, 97px 97px, 97px 97px, 97px 97px;
+	background-position: 650px 50px, 10px 220px, 700px 700px, bottom left;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.custom_mob_modal {
+	top: 0;
+	margin: 0;
+	width: 100%;
+	height: calc(100vh - 50px);
+	max-width: calc(100vw - 0px) !important;
+	/* max-height: calc(100vw - 0px) !important; */
+
+	@media screen and (max-width: 767px) {
+		margin: 0 !important;
+		max-width: calc(100vw - 0px) !important;
+		/* max-height: calc(100vw - 0px) !important; */
+	}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom_mob_modal_root .ant-modal-mask {
+	background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.custom_mob_modal .ant-modal-content {
+	padding: 0;
+	height: 100%;
+	/* min-height: 2000px; */
+	width: 100%;
+	max-width: 1100px;
+	height: calc(100vh - 00px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom_mob_modal .ant-modal-close {
+	color: #ff9f0e;
+	margin-right: 4%;
+	margin-top: 4%;
+}
+
+.custom_mob_modal button span {
+	font-size: 32px !important;
 }

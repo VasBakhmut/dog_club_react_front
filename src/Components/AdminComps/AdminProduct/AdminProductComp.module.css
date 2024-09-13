@@ -1,0 +1,56 @@
+.container {
+	padding: 6px;
+	border: 1px solid #ff9f0e;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 36px;
+	width: 80%;
+	margin: 16px auto;
+}
+
+.spannn {
+	margin: 8px;
+	padding: 8px;
+
+	font-size: 18px;
+}
+
+.name_span_text {
+	font-size: 18px;
+	max-width: 250px;
+	width: 100%;
+	padding: 8px;
+}
+
+.img {
+	width: 30px;
+	margin: 12px;
+}
+
+.name_span {
+	color: rgb(133, 135, 136);
+	font-size: 16px;
+}
+
+.btn_container {
+	display: flex;
+	gap: 12px;
+}
+
+.btn {
+	background-color: #ff9f0e;
+	padding: 6px;
+	color: white;
+	border: none;
+	border-radius: 8px;
+}
+
+.btnDlt {
+	background-color: #ff9f0e;
+	padding: 6px;
+	color: rgb(243, 10, 10);
+	border: none;
+	border-radius: 8px;
+}

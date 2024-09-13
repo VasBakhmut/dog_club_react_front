@@ -1,13 +1,160 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/assets/fonts/roboto-v30-latin-regular.woff2') format('woff2');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../src/assets/fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../src/assets/fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Rowdies';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/assets/fonts/rowdies-v17-latin-regular.woff2')
+		format('woff2');
+}
+
+a {
+	display: inline-block;
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	background-color: #ffffff;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.active-link {
+	font-weight: bold;
+	color: blue;
+}
+
+.section_container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1288px;
+	padding: 0px 24px;
+	position: relative;
+}
+
+/* pagination */
+
+.slick-dots {
+	bottom: -52px;
+	height: 11px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.slick-dots li {
+	width: 11px;
+	height: 11px;
+}
+
+.slick-dots li button {
+	width: 11px;
+	height: 11px;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #ff9f0e;
+	opacity: unset;
+}
+
+.slick-dots li button:before {
+	line-height: 0;
+	font-size: 13px;
+	color: #839aa9;
+	opacity: unset;
+}
+
+.slick-current {
+	display: flex !important ;
+	justify-content: center !important;
+	width: 100%;
+}
+
+.slick-active {
+	display: flex !important ;
+	justify-content: center !important;
+	width: 100%;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+}
+
+.ant-pagination-item-active {
+	background-color: #ff9f0e !important;
+	border: none !important;
+}
+
+.ant-pagination-item-active a {
+	color: #ffffff !important;
+}
+
+.ant-drawer-content {
+	border-radius: 24px 24px 0 0;
+}
+
+.modal111 {
+	background-color: blue;
+}
+
+.mainAlert {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 100%;
+	max-width: 800px;
+	z-index: 20;
+	margin: 0 auto;
 }

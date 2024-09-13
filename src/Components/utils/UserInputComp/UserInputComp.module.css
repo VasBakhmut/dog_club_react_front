@@ -1,0 +1,66 @@
+.container {
+	position: relative;
+	top: -220px;
+	margin-top: 12px;
+	padding: 12px;
+	background-color: rgb(233, 235, 235);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto auto auto;
+	gap: 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+}
+
+.container div {
+	padding: 20px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_centre {
+	grid-column: 1 / span 2;
+	justify-content: center;
+}
+
+.input_container {
+	padding: 12px;
+}
+
+.label {
+	margin-right: 12px;
+	color: rgb(150, 150, 150);
+}
+
+.input {
+	border-radius: 16px;
+	border: none;
+	width: 100%;
+	max-width: 250px;
+	height: 30px;
+	padding: 12px;
+}
+
+.input_selector {
+	width: 100%;
+	max-width: 70px;
+	height: 50px;
+	border-radius: 16px;
+	border: none;
+	padding: 12px;
+}
+
+.input_selector:focus {
+	border: none;
+	outline: none;
+}
+
+.input:focus {
+	border: none;
+	outline: none;
+}

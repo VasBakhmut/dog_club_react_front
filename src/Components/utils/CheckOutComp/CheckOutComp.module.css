@@ -1,0 +1,88 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 28px;
+}
+
+.mainTax {
+	color: #ff9f0e;
+	text-align: center;
+	padding-top: 180px;
+	margin-bottom: 48px;
+}
+
+.details_container {
+	border: 1px solid #ff9f0e;
+	padding: 16px;
+	border-radius: 12px;
+	position: relative;
+	height: 550px;
+}
+
+.product_container {
+	border: 1px solid #ff9f0e;
+	padding: 16px;
+	border-radius: 12px;
+	height: 550px;
+}
+
+.prch_btn {
+	width: 100%;
+	border: none;
+	border-radius: 12px;
+	padding: 16px;
+	color: white;
+	background-color: #ff9f0e;
+}
+
+.payment_container {
+	display: flex;
+	flex-direction: column;
+}
+
+.input_label {
+	top: 10px;
+	left: 10px;
+	font-size: 12px;
+	color: rgb(109, 107, 107);
+}
+.input {
+	margin-bottom: 12px;
+	border: 1px solid #ff9f0e;
+	border-radius: 6px;
+	font-size: 18px;
+}
+
+.details_text {
+	font-size: 18px;
+	margin-bottom: 8px;
+	color: rgb(109, 107, 107);
+}
+
+.editDetails_btn {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	border: 0.5px solid #ff9f0e;
+	background-color: transparent;
+	border-radius: 6px;
+	cursor: pointer;
+	color: rgb(109, 107, 107);
+	padding: 4px;
+}
+
+.totalCnt {
+	display: flex;
+	justify-content: space-between;
+}
+
+.giftCodeBtn {
+	width: 100%;
+	padding: 12px;
+	background-color: transparent;
+	border: 0.5px solid #ff9f0e;
+	border-radius: 6px;
+	margin-top: 36px;
+	margin-bottom: 12px;
+}

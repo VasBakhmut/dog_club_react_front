@@ -1,0 +1,156 @@
+.sectionContainer {
+	margin-bottom: 178px;
+	margin-top: 155px;
+	position: relative;
+	background-image: url('../../../../../assets/image/backgraundSerArrow.png');
+	background-repeat: no-repeat;
+	background-position: 65% 10%;
+	background-size: 72px 48px;
+
+	@media screen and (max-width: 480px) {
+		margin-top: 27px;
+		margin-bottom: 60px;
+		background-image: none;
+	}
+
+	@media screen and (min-width: 1280px) {
+		background-image: none;
+	}
+}
+
+.mainText {
+	font-family: 'Rowdies';
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+	max-width: 428px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+	}
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	background-image: url('../../../../../assets/image/BawlLessTalk.png');
+	background-repeat: no-repeat;
+	background-position: 248px 510px;
+	background-size: 72px 48px;
+	padding-bottom: 38px;
+	position: relative;
+
+	@media screen and (max-width: 480px) {
+		background-image: none;
+	}
+}
+
+.photo_container {
+	background-image: url('../../../../../assets/image/LetsTalk1.png'),
+		url('../../../../../assets/image/LetsTalk2.png'),
+		url('../../../../../assets/image/LetsTalk3.png'),
+		url('../../../../../assets/image/bakg.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 100px 300px, 205px 30px, 500px 220px, center;
+	background-size: 40px 40px, 40px 40px, 40px 40px, 540px 500px;
+	padding: 61px 40px;
+	position: relative;
+	@media screen and (max-width: 1279px) {
+		display: none;
+	}
+}
+
+.photo {
+	top: 54px;
+	left: -6px;
+}
+
+.video_container {
+	width: 161px;
+	height: 123px;
+	background-image: url('../../../../../assets/image/BackForVideoComp.png');
+	background-repeat: no-repeat;
+	background-size: 161px 123px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 5%;
+	left: 28%;
+
+	@media screen and (max-width: 1279px) {
+		top: 330px;
+		left: centre;
+		background-size: 117px 95px;
+		width: 117px;
+		height: 95px;
+	}
+
+	@media screen and (max-width: 480px) {
+		top: 80%;
+		left: 50%;
+	}
+}
+
+.videoClick {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.icon_container {
+	width: 48px;
+	height: 48px;
+	fill: #ffffff;
+}
+.icon_container_text {
+	color: #ffffff;
+	font-style: 16px;
+}
+
+.text_container {
+	/* text-align: left; */
+}
+.text_container_text {
+	width: 100%;
+	max-width: 640px;
+	margin: 40px 0 24px;
+	font-family: 'Roboto';
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.text_container_btn {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 16px 32px;
+	background-color: #ff9f0e;
+	border: transparent;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.videoFrame {
+	width: 820px;
+	height: 400px;
+	border-radius: 12px;
+}
+
+.videoFrame_container {
+	margin-bottom: 12px;
+}
+
+.videoFrame_closeButton {
+	width: 80%;
+	padding: 6px;
+	border: 1px solid #ff9f0e;
+	border-radius: 18px;
+	background-color: #ff9f0e;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	left: 10%;
+}

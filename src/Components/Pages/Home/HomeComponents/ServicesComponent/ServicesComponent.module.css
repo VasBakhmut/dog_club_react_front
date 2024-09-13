@@ -1,0 +1,111 @@
+.sectionContainer {
+	margin-bottom: 96px;
+}
+
+.mainText {
+	text-align: center;
+	font-family: 'Rowdies';
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 1.2;
+	margin-bottom: 48px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+	}
+}
+
+.card_container {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	width: 100%;
+
+	@media screen and (max-width: 1279px) {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.card1 {
+	padding: 47px 72px;
+	background-color: #ffffff;
+	z-index: 5;
+	border: 1px solid #f9f9ff;
+	width: 100%;
+	max-width: 240px;
+	height: 240px;
+	border-radius: 16px;
+
+	@media screen and (max-width: 1279px) {
+		display: none;
+	}
+}
+
+.card2 {
+	padding: 47px 72px;
+	background-color: #ffffff;
+	z-index: 5;
+	border: 1px solid #f9f9ff;
+	width: 100%;
+	max-width: 240px;
+	height: 240px;
+	border-radius: 16px;
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.card3 {
+	padding: 47px 72px;
+	background-color: #ffffff;
+	z-index: 5;
+	border: 1px solid #f9f9ff;
+	width: 100%;
+	max-width: 240px;
+	height: 240px;
+	border-radius: 16px;
+
+	@media screen and (max-width: 1279px) {
+		display: none;
+	}
+}
+
+.card4 {
+	padding: 47px 72px;
+	background-color: #ffffff;
+	z-index: 5;
+	border: 1px solid #f9f9ff;
+	width: 100%;
+	max-width: 240px;
+	height: 240px;
+	border-radius: 16px;
+}
+
+.card_text {
+	font-weight: 600;
+	line-height: 1.2;
+	color: #ff9f0e;
+}
+.link {
+	color: #ff9f0e;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	width: 146px;
+	padding: 0;
+	margin: 0;
+}
+
+.link_container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: end;
+}
+
+.socialIcon {
+	width: 96px;
+	height: 96px;
+	margin-bottom: 24px;
+}

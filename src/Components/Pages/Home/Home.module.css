@@ -1,0 +1,55 @@
+.cnt {
+	padding-top: 235px;
+	background-image: url('../../../assets//image/backgroundform.png'),
+		url('../../../assets/image/backgroundHero.png'),
+		url('../../../assets//image/backgraundSerArrow.png'),
+		url('../../../assets/image/backgraundService.png'),
+		url('../../../assets/image/BkghappyCustomerleftleft\ half.png'),
+		url('../../../assets/image/BkghappyCustomerleftTop.png'),
+		url('../../../assets/image/BkghappyCustomerRight.png'),
+		url('../../../assets/image/BkglessTalk111.png');
+
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: center 105%, 0px 54px, 1450px 1570px, 0px 1570px,
+		0px 2620px, 300px 2220px, 1600px 2320px, 1700px 950px;
+	background-size: contain, contain, 192px 144px, contain, 115px 208px,
+		72px 72px, 97px 97px, 208px 208px;
+	width: 100%;
+
+	@media screen and (max-width: 1279px) {
+		padding-top: 150px;
+
+		background-image: url('../../../assets//image/backgroundform.png'),
+			url('../../../assets/image/backgroundHero.png'),
+			url('../../../assets/image/backgraundService.png'), none, none, none, none,
+			none;
+
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: center 90%, center 54px, center 47%;
+		background-size: contain, contain, 100% 20%;
+	}
+
+	@media screen and (max-width: 768px) {
+		padding-top: 90px;
+		background-image: url('../../../assets//image/backgroundform.png'),
+			url('../../../assets/image/backgroundHero.png'),
+			url('../../../assets/image/backgraundService.png'), none, none, none, none,
+			none;
+
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: center 82%, center 54px, center 45%;
+		background-size: contain, contain, 100% 485px;
+	}
+
+	@media screen and (max-width: 480px) {
+		padding-top: 72px;
+		background-image: url('../../../assets//image/backgroundform.png'),
+			url('../../../assets/image/backgroundHero.png'),
+			url('../../../assets/image/backgraundService.png'), none, none, none, none,
+			none;
+
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-position: center 82%, right 54px, center 41%;
+		background-size: contain, 625px 323px, 625px 485px;
+	}
+}

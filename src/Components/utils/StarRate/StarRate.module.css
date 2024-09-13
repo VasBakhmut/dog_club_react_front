@@ -1,0 +1,14 @@
+.star_rating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 16px;
+}
+
+.star {
+	color: #839aa9;
+}
+
+.starFilled {
+	color: #fcb62a;
+}

@@ -1,0 +1,92 @@
+.formSection {
+	position: relative;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 84px;
+	padding: 12px;
+}
+
+.section {
+	margin-top: 84px;
+	position: relative;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	justify-content: center;
+	margin: 48px 0 16px;
+	width: 100%;
+	align-items: center;
+
+	@media screen and (max-width: 768px) {
+		padding: 0 20px;
+	}
+}
+
+.text {
+	color: #839aa9;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-top: 16px;
+}
+
+.text_agree {
+	color: #839aa9;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.btn {
+	color: #ffffff;
+	background-color: #ff9f0e;
+	padding: 16px 32px;
+	width: 100%;
+	max-width: 151px;
+	margin: 0 auto;
+	border: 1px solid transparent;
+	border-radius: 8px;
+}
+
+.imgOne {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}
+
+.imgTwo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-right: 2px;
+
+	@media screen and (max-width: 1279px) {
+		display: none;
+	}
+}
+
+.mainText {
+	font-family: 'Rowdies';
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	max-width: 605px;
+
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+	}
+}

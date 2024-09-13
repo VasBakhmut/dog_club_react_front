@@ -1,0 +1,139 @@
+.happyCustomerSection {
+	margin-bottom: 168px;
+
+	@media screen and (max-width: 480px) {
+		margin-bottom: 72px;
+	}
+}
+
+.sliderContainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	max-width: 1064px;
+}
+
+.mainText {
+	text-align: center;
+	font-family: 'Rowdies';
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 1.2;
+	margin-bottom: 48px;
+	@media screen and (max-width: 480px) {
+		font-size: 32px;
+	}
+}
+
+.slider-container {
+	margin: 0 auto;
+	justify-content: 'centre';
+}
+
+.sliderArrowRgt {
+	fill: #ffffff;
+	padding: 6px;
+	border-radius: 50%;
+}
+
+.sliderArrowLft {
+	fill: #ffffff;
+	padding: 6px;
+	border-radius: 50%;
+
+	transform: rotate(180deg);
+}
+.sliderArrowLftBtn,
+.sliderArrowRgtBtn {
+	background-color: #839aa9;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+	padding-left: 5px;
+	@media screen and (max-width: 1279px) {
+		display: none;
+	}
+}
+
+.sliderArrowLftBtn {
+	left: -86px;
+}
+
+.sliderArrowRgtBtn {
+	right: -67px;
+}
+
+.sliderWindow {
+	display: flex;
+	gap: 16px;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+.sliderCont {
+	max-width: 1064px;
+	margin: 0 auto;
+}
+
+.slick-dots {
+	bottom: -52px;
+	height: 11px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.slick-dots li {
+	width: 11px;
+	height: 11px;
+}
+
+.slick-dots li button {
+	width: 11px;
+	height: 11px;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #ff9f0e;
+	opacity: unset;
+}
+
+.slick-dots li button:before {
+	line-height: 0;
+	font-size: 13px;
+	color: #839aa9;
+	opacity: unset;
+}
+
+.slick-current {
+	display: flex !important ;
+	justify-content: center !important;
+	width: 100%;
+}
+
+.slick-active {
+	display: flex !important ;
+	justify-content: center !important;
+	width: 100%;
+}
+
+.slick-dots {
+	.slick-active {
+		button {
+			color: #ff9f0e !important;
+			opacity: unset;
+		}
+	}
+}

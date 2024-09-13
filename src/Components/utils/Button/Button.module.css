@@ -1,0 +1,27 @@
+.main_btn {
+	background-color: #ff9f0e;
+	color: #ffffff;
+	/* height: 53px;
+		width: 151px; */
+	border: transparent;
+	border-radius: 8px;
+	height: 50px;
+	padding: 16px 32px;
+	cursor: pointer;
+}
+
+.btnDeskTop {
+	background-color: #ff9f0e;
+	color: #ffffff;
+	/* height: 53px;
+		width: 151px; */
+	border: transparent;
+	border-radius: 8px;
+	height: 50px;
+	padding: 16px 32px;
+	cursor: pointer;
+
+	@media screen and (max-width: 1100px) {
+		display: none;
+	}
+}
