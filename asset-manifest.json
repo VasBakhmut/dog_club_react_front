@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/dog_club_react_front.git/static/css/main.1e9714b3.css",
+    "main.js": "/dog_club_react_front.git/static/js/main.d77e5050.js",
+    "static/media/backgroundform.png": "/dog_club_react_front.git/static/media/backgroundform.998e8c31105c673cdd7f.png",
+    "static/media/dog1.png": "/dog_club_react_front.git/static/media/dog1.007452247455489d2a45.png",
+    "static/media/dogform2.png": "/dog_club_react_front.git/static/media/dogform2.3fe9ed7541b4257cbb8e.png",
+    "static/media/dog2.png": "/dog_club_react_front.git/static/media/dog2.5193aa9767009d5c6315.png",
+    "static/media/dogform1.png": "/dog_club_react_front.git/static/media/dogform1.4220f860fba1b2cca911.png",
+    "static/media/image 4.jpg": "/dog_club_react_front.git/static/media/image 4.ab2423f42ff0bb90fd78.jpg",
+    "static/media/image 1.jpg": "/dog_club_react_front.git/static/media/image 1.b41ffd1146198e13fdce.jpg",
+    "static/media/image 3.jpg": "/dog_club_react_front.git/static/media/image 3.53355f99daa50d215e3b.jpg",
+    "static/media/dogFooter.png": "/dog_club_react_front.git/static/media/dogFooter.a879e76a964bb9ffc568.png",
+    "static/media/productPerp.png": "/dog_club_react_front.git/static/media/productPerp.5c3e9dc877e9a33ed3cf.png",
+    "static/media/productGreen.png": "/dog_club_react_front.git/static/media/productGreen.dd595d8747350f59df75.png",
+    "static/media/productBroune.png": "/dog_club_react_front.git/static/media/productBroune.e4d4290480d195b2f8c9.png",
+    "static/media/BkglessTalk111.png": "/dog_club_react_front.git/static/media/BkglessTalk111.14a610187c27df3f0306.png",
+    "static/media/sprite.svg": "/dog_club_react_front.git/static/media/sprite.6d0504a9933f20d96fc4986b32197e73.svg",
+    "static/media/footerDoogSmall.png": "/dog_club_react_front.git/static/media/footerDoogSmall.74d34f27da6ef19c12de.png",
+    "static/media/BkghappyCustomerleftleft half.png": "/dog_club_react_front.git/static/media/BkghappyCustomerleftleft half.ef8c6213f4e983322cc3.png",
+    "static/media/rowdies-v17-latin-regular.woff2": "/dog_club_react_front.git/static/media/rowdies-v17-latin-regular.822a12b9bb5eef5e2ed9.woff2",
+    "static/media/BkghappyCustomerRight.png": "/dog_club_react_front.git/static/media/BkghappyCustomerRight.69cb230164e681c6b347.png",
+    "static/media/roboto-v30-latin-500.woff2": "/dog_club_react_front.git/static/media/roboto-v30-latin-500.f25d774ecfe0996f8eb5.woff2",
+    "static/media/roboto-v30-latin-700.woff2": "/dog_club_react_front.git/static/media/roboto-v30-latin-700.227c93190fe7f82de3f8.woff2",
+    "static/media/roboto-v30-latin-regular.woff2": "/dog_club_react_front.git/static/media/roboto-v30-latin-regular.b009a76ad6afe4ebd301.woff2",
+    "static/media/backgroundHero.png": "/dog_club_react_front.git/static/media/backgroundHero.5e59f910c19763eb1f68.png",
+    "static/media/BkghappyCustomerleftTop.png": "/dog_club_react_front.git/static/media/BkghappyCustomerleftTop.c4e713de4dd77ea44bdb.png",
+    "static/media/slick.svg": "/dog_club_react_front.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/dog_club_react_front.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/dog_club_react_front.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/dog_club_react_front.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/dog_club_react_front.git/index.html",
+    "main.1e9714b3.css.map": "/dog_club_react_front.git/static/css/main.1e9714b3.css.map",
+    "main.d77e5050.js.map": "/dog_club_react_front.git/static/js/main.d77e5050.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e9714b3.css",
+    "static/js/main.d77e5050.js"
+  ]
+}
